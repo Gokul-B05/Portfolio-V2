@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gokul | Full Stack Developer & Creative Technologist</title>
+    <title>Gokul | Full Stack Developer &amp; Software Developer</title>
     <link rel="stylesheet" href="./style.css" />
     <!-- FontAwesome -->
     <link
@@ -12,20 +12,21 @@
     />
   </head>
   <body>
-    <!-- BACKGROUND ANIMATION CONTAINER -->
+    <!-- BACKGROUND CONTAINER (Solid off-white, no gradients) -->
     <div class="background-container">
       <div class="nebula-layer"></div>
       <div class="stars-layer"></div>
       <div class="grid-layer"></div>
     </div>
+
     <!-- NAV ISLAND -->
     <header class="header">
       <nav class="nav-island">
         <a href="#" class="logo">Gk.</a>
         <div class="nav-links">
           <a href="#about" class="nav-link">About</a>
-          <a href="#work" class="nav-link">Work</a>
           <a href="#skills" class="nav-link">Skills</a>
+          <a href="#work" class="nav-link">Work</a>
           <a href="#contact" class="nav-link">Contact</a>
         </div>
         <div class="mobile-toggle">
@@ -44,13 +45,18 @@
           </h1>
           <p class="subtitle">
             Hi, I'm <strong>Gokul</strong>. A Full Stack Developer who bridges
-            the gap between robust backend logic and immersive frontend design.
+            the gap between robust backend logic and modern, responsive frontend design.
           </p>
           <div class="hero-cta-group">
             <a href="#work" class="btn btn-primary">
               View Work <i class="fa-solid fa-arrow-right"></i>
             </a>
-            <a href="./Gokul_Software_Developer_Resume.pdf" class="btn btn-outline">
+            <a
+              href="./Gokul_Software_Developer_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-outline"
+            >
               <i class="fa-solid fa-download"></i> Resume
             </a>
           </div>
@@ -60,10 +66,9 @@
           <div class="hero-card float-animation">
             <img
               src="./profile-img.png"
-              alt="Gokul - Developer"
+              alt="Gokul - Full Stack Developer"
               class="hero-img"
             />
-            <!-- Glass Overlay Info (Optional) -->
           </div>
         </div>
       </div>
@@ -76,35 +81,26 @@
         <div class="about-text">
           <p class="lead">
             I'm a <span class="highlight">creative developer</span> driven by
-            the intersection of design and engineering.
+            the intersection of clean design and solid engineering.
           </p>
           <p>
-            I am eager to look for opportunities to implement my skills in
-            actual environments, learn from professional teams, and develop
-            efficient code. This section includes a professional photograph to
-            ensure a confident and job-ready profile.
+            I am eager to contribute my skills to real-world development environments, collaborate with professional teams, and deliver robust, maintainable code. With hands-on experience across Java, Spring Boot, React, and relational databases, I build reliable full-stack applications.
           </p>
-          <!-- <div class="stats-row">
-            <div class="stat-item">
-              <span class="stat-number">10+</span>
-              <span class="stat-label">Projects</span>
-            </div>
-          </div> -->
         </div>
 
         <div class="about-visual">
           <div class="code-block-wrapper">
             <pre><code class="language-javascript">
 const gokul = {
-  role: "Full Stack Dev",
-  passion: "Creative UI",
+  role: "Java Full Stack Developer",
+  focus: "Clean Architecture &amp; UI",
   skills: [
-    "React", "SpringBoot", 
-    "Java", "Design", "PostgreSQL"
+    "Java", "Spring Boot", 
+    "React.js", "PostgreSQL", "REST APIs"
   ],
-  Location: "Chennai, India"
+  location: "Chennai, India"
 };
-                    </code></pre>
+            </code></pre>
           </div>
         </div>
       </div>
@@ -114,8 +110,9 @@ const gokul = {
     <section id="skills" class="skills-section container">
       <h2 class="section-title">Tech Arsenal</h2>
       <div class="skills-wrapper">
+        <!-- Frontend & Design -->
         <div class="skill-category">
-          <h3>Frontend & Design</h3>
+          <h3><i class="fa-solid fa-code"></i> Frontend &amp; Design</h3>
           <div class="skill-grid">
             <div class="skill-card">
               <i class="fa-brands fa-html5" style="color: #e34f26"></i>
@@ -133,11 +130,16 @@ const gokul = {
               <i class="fa-brands fa-react" style="color: #61dafb"></i>
               <span>React</span>
             </div>
+            <div class="skill-card">
+              <i class="fa-solid fa-mobile-screen-button" style="color: #0F766E"></i>
+              <span>Responsive Web Design</span>
+            </div>
           </div>
         </div>
 
+        <!-- Backend & Database -->
         <div class="skill-category">
-          <h3>Backend & Database</h3>
+          <h3><i class="fa-solid fa-server"></i> Backend &amp; Database</h3>
           <div class="skill-grid">
             <div class="skill-card">
               <i class="fa-brands fa-java" style="color: #007396"></i>
@@ -149,7 +151,99 @@ const gokul = {
             </div>
             <div class="skill-card">
               <i class="fa-solid fa-database" style="color: #336791"></i>
-              <span>SQL</span>
+              <span>PostgreSQL</span>
+            </div>
+            <div class="skill-card">
+              <i class="fa-solid fa-server" style="color: #00758F"></i>
+              <span>MySQL</span>
+            </div>
+            <div class="skill-card">
+              <i class="fa-solid fa-table-cells" style="color: #0F766E"></i>
+              <span>Relational Databases</span>
+            </div>
+            <div class="skill-card">
+              <i class="fa-solid fa-network-wired" style="color: #C2185B"></i>
+              <span>REST APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Programming Concepts -->
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-cubes"></i> Programming Concepts</h3>
+          <div class="skill-grid">
+            <div class="skill-card">
+              <i class="fa-solid fa-cubes" style="color: #C2185B"></i>
+              <span>Object-Oriented Programming (OOP)</span>
+            </div>
+            <div class="skill-card">
+              <i class="fa-solid fa-diagram-project" style="color: #2563EB"></i>
+              <span>Client-Server Architecture</span>
+            </div>
+            <div class="skill-card">
+              <i class="fa-solid fa-arrows-rotate" style="color: #0F766E"></i>
+              <span>CRUD Operations</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Development Tools & Technologies -->
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-toolbox"></i> Development Tools &amp; Technologies</h3>
+          <div class="skill-grid">
+            <div class="skill-card">
+              <i class="fa-solid fa-paper-plane" style="color: #FF6C37"></i>
+              <span>Postman</span>
+            </div>
+            <div class="skill-card">
+              <i class="fa-brands fa-git-alt" style="color: #F05032"></i>
+              <span>Git</span>
+            </div>
+            <div class="skill-card">
+              <i class="fa-brands fa-github" style="color: #172033"></i>
+              <span>GitHub</span>
+            </div>
+            <div class="skill-card">
+              <i class="fa-brands fa-docker" style="color: #2496ED"></i>
+              <span>Docker</span>
+            </div>
+            <div class="skill-card">
+              <i class="fa-solid fa-robot" style="color: #C2185B"></i>
+              <span>Agentic AI Tools</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testing & Debugging -->
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-vial-circle-check"></i> Testing &amp; Debugging</h3>
+          <div class="skill-grid">
+            <div class="skill-card">
+              <i class="fa-solid fa-clipboard-check" style="color: #0F766E"></i>
+              <span>Manual Testing</span>
+            </div>
+            <div class="skill-card">
+              <i class="fa-solid fa-vial-circle-check" style="color: #0284C7"></i>
+              <span>API Testing</span>
+            </div>
+            <div class="skill-card">
+              <i class="fa-solid fa-check-double" style="color: #16A34A"></i>
+              <span>Functional Testing</span>
+            </div>
+            <div class="skill-card">
+              <i class="fa-solid fa-bug-slash" style="color: #DC2626"></i>
+              <span>Debugging</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional Skills -->
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-briefcase"></i> Professional Skills</h3>
+          <div class="skill-grid">
+            <div class="skill-card">
+              <i class="fa-solid fa-file-lines" style="color: #0F766E"></i>
+              <span>Technical Documentation</span>
             </div>
           </div>
         </div>
@@ -164,10 +258,10 @@ const gokul = {
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <span class="timeline-date">Current</span>
-            <h3>Freelance Developer & Learner</h3>
+            <h3>Freelance Developer &amp; Learner</h3>
             <p>
-              Building creative web solutions and mastering advanced full-stack
-              concepts.
+              Building modern web solutions and mastering advanced full-stack
+              concepts with Spring Boot and React.
             </p>
           </div>
         </div>
@@ -175,13 +269,73 @@ const gokul = {
           <div class="timeline-dot"></div>
           <div class="timeline-content">
             <span class="timeline-date">2025</span>
-            <h3>Graduated</h3>
+            <h3>Graduated - B.Sc. Computer Science</h3>
             <p>
               Completed academic journey with a strong foundation in Computer
-              Science principles.
+              Science principles and object-oriented programming.
             </p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="education-section container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-grid">
+        <!-- Education 1: B.Sc. Computer Science -->
+        <article class="education-card">
+          <div class="education-header">
+            <div class="education-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <span class="education-year">2022–2025</span>
+          </div>
+          <h3 class="education-degree">B.Sc. Computer Science</h3>
+          <p class="education-institution">
+            <i class="fa-solid fa-building-columns"></i> Rajah Serfoji Government College, Thanjavur
+          </p>
+          <div class="education-score">
+            <span class="score-label">Result</span>
+            <span class="score-badge">CGPA: 7.5</span>
+          </div>
+        </article>
+
+        <!-- Education 2: Higher Secondary School -->
+        <article class="education-card">
+          <div class="education-header">
+            <div class="education-icon">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <span class="education-year">2021–2022</span>
+          </div>
+          <h3 class="education-degree">Higher Secondary School</h3>
+          <p class="education-institution">
+            <i class="fa-solid fa-building-columns"></i> St. Antony's Higher Secondary School, Thanjavur
+          </p>
+          <div class="education-score">
+            <span class="score-label">Result</span>
+            <span class="score-badge">Percentage: 72%</span>
+          </div>
+        </article>
+
+        <!-- Education 3: Secondary School -->
+        <article class="education-card">
+          <div class="education-header">
+            <div class="education-icon">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <span class="education-year">2019–2020</span>
+          </div>
+          <h3 class="education-degree">Secondary School</h3>
+          <p class="education-institution">
+            <i class="fa-solid fa-building-columns"></i> St. Antony's Higher Secondary School, Thanjavur
+          </p>
+          <div class="education-score">
+            <span class="score-label">Result</span>
+            <span class="score-badge">Percentage: 79%</span>
+          </div>
+        </article>
       </div>
     </section>
 
@@ -190,10 +344,9 @@ const gokul = {
       <h2 class="section-title">Selected Work</h2>
 
       <div class="projects-grid">
-        <!-- Project New: Real Estate -->
+        <!-- Project 1: Real Estate Management System -->
         <article class="project-card">
           <div class="project-image project-real-estate">
-            <div class="blueprint-grid"></div>
             <div class="building-cube">
               <div class="cube-face"></div>
               <div class="cube-face"></div>
@@ -204,28 +357,61 @@ const gokul = {
             </div>
             <div class="project-overlay">
               <div class="project-links">
-                <a href="#" class="btn-icon" title="View Code"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
+                <a
+                  href="https://github.com/Gokul-B05/Realestate-management-system"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-icon"
+                  title="GitHub Repository"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a
+                  href="https://realestate-frontend-iple.onrender.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-icon"
+                  title="Live Demo"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
               </div>
             </div>
           </div>
           <div class="project-info">
             <h3>Real Estate Management System</h3>
             <p>
-              Full Stack Web App (React + Spring Boot + PostgreSQL). Built
-              scalable components, optimized APIs (25% faster), and normalized
-              DB.
+              A full-stack web application for browsing property listings and managing property bookings, featuring user authentication, a React-based interface, and a Spring Boot backend connected to PostgreSQL.
             </p>
             <div class="project-tags">
               <span>React.js</span>
               <span>Spring Boot</span>
+              <span>Java</span>
               <span>PostgreSQL</span>
+              <span>REST APIs</span>
+            </div>
+            <div class="project-actions">
+              <a
+                href="https://github.com/Gokul-B05/Realestate-management-system"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-project btn-project-outline"
+              >
+                <i class="fa-brands fa-github"></i> GitHub Repository
+              </a>
+              <a
+                href="https://realestate-frontend-iple.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-project btn-project-primary"
+              >
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
             </div>
           </div>
         </article>
 
-        <!-- Project 1: Fashion -->
+        <!-- Project 2: Fashion E-Commerce -->
         <article class="project-card">
           <div class="project-image project-fashion">
             <div class="wave-orb orb-1"></div>
@@ -233,12 +419,20 @@ const gokul = {
             <div class="fashion-line"></div>
             <div class="project-overlay">
               <div class="project-links">
-                <a href="#" class="btn-icon" title="View Code"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
-                <a href="#" class="btn-icon" title="Live Demo"
-                  ><i class="fa-solid fa-external-link-alt"></i
-                ></a>
+                <a
+                  href="#"
+                  class="btn-icon"
+                  title="View Code"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a
+                  href="#"
+                  class="btn-icon"
+                  title="Live Demo"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -253,10 +447,18 @@ const gokul = {
               <span>Bootstrap</span>
               <span>CSS3</span>
             </div>
+            <div class="project-actions">
+              <a href="#" class="btn-project btn-project-outline">
+                <i class="fa-brands fa-github"></i> GitHub Repository
+              </a>
+              <a href="#" class="btn-project btn-project-primary">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+            </div>
           </div>
         </article>
 
-        <!-- Project 2: Grade System -->
+        <!-- Project 3: Grade System -->
         <article class="project-card">
           <div class="project-image project-grade">
             <div class="data-stream">
@@ -268,9 +470,13 @@ const gokul = {
             </div>
             <div class="project-overlay">
               <div class="project-links">
-                <a href="#" class="btn-icon"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
+                <a
+                  href="#"
+                  class="btn-icon"
+                  title="View Code"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -285,10 +491,15 @@ const gokul = {
               <span>MySQL</span>
               <span>OOP</span>
             </div>
+            <div class="project-actions">
+              <a href="#" class="btn-project btn-project-outline">
+                <i class="fa-brands fa-github"></i> GitHub Repository
+              </a>
+            </div>
           </div>
         </article>
 
-        <!-- Project 3: Portfolio -->
+        <!-- Project 4: Portfolio v1 -->
         <article class="project-card">
           <div class="project-image project-portfolio">
             <div class="code-ring ring-outer"></div>
@@ -296,9 +507,13 @@ const gokul = {
             <div class="central-dot"></div>
             <div class="project-overlay">
               <div class="project-links">
-                <a href="#" class="btn-icon"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
+                <a
+                  href="#"
+                  class="btn-icon"
+                  title="View Code"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -310,6 +525,12 @@ const gokul = {
             <div class="project-tags">
               <span>HTML</span>
               <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <a href="#" class="btn-project btn-project-outline">
+                <i class="fa-brands fa-github"></i> GitHub Repository
+              </a>
             </div>
           </div>
         </article>
@@ -320,9 +541,9 @@ const gokul = {
     <section id="contact" class="contact-section container">
       <div class="contact-wrapper">
         <div class="contact-content">
-          <h2 class="section-title" style="padding-right: 200px;">Let's Connect</h2>
+          <h2 class="section-title">Let's Connect</h2>
           <p class="contact-text">
-            I am currently seeking opportunities as a Full Stack Developer. If
+            I am currently seeking opportunities as a Java Full Stack Developer and Software Developer. If
             you are looking for someone who can build scalable, maintainable,
             and user-focused applications, I would be glad to connect.
           </p>
@@ -335,14 +556,18 @@ const gokul = {
             <a
               href="https://github.com/Gokul-B05"
               target="_blank"
+              rel="noopener noreferrer"
               class="social-link"
+              title="GitHub"
             >
               <i class="fa-brands fa-github"></i>
             </a>
             <a
               href="https://linkedin.com/in/gokul-b-78b823378"
               target="_blank"
+              rel="noopener noreferrer"
               class="social-link"
+              title="LinkedIn"
             >
               <i class="fa-brands fa-linkedin-in"></i>
             </a>
@@ -355,8 +580,7 @@ const gokul = {
     <footer class="footer">
       <div class="container flex-center">
         <p>
-          &copy; <span id="year"></span> Gokul B. Engineering scalable digital
-          solutions.
+          &copy; <span id="year"></span> Gokul B. Engineering scalable digital solutions.
         </p>
       </div>
     </footer>
@@ -367,12 +591,14 @@ const gokul = {
         const navIsland = document.querySelector(".nav-island");
 
         window.addEventListener("scroll", () => {
-          if (window.scrollY > 50) {
-            navIsland.style.background = "rgba(10, 10, 10, 0.85)";
-            navIsland.style.padding = "8px 8px";
+          if (window.scrollY > 40) {
+            navIsland.style.backgroundColor = "rgba(255, 255, 255, 0.95)";
+            navIsland.style.padding = "6px 12px";
+            navIsland.style.boxShadow = "0 8px 24px rgba(23, 32, 51, 0.08)";
           } else {
-            navIsland.style.background = "rgba(10, 10, 10, 0.6)";
-            navIsland.style.padding = "10px 10px";
+            navIsland.style.backgroundColor = "rgba(255, 255, 255, 0.92)";
+            navIsland.style.padding = "8px 12px";
+            navIsland.style.boxShadow = "0 4px 16px rgba(23, 32, 51, 0.05)";
           }
         });
 
@@ -381,6 +607,10 @@ const gokul = {
           anchor.addEventListener("click", function (e) {
             e.preventDefault();
             const targetId = this.getAttribute("href");
+            if (targetId === "#") {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+              return;
+            }
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
               targetElement.scrollIntoView({
@@ -397,46 +627,69 @@ const gokul = {
           });
         });
 
+        // Active Navigation Link on Scroll (ScrollSpy)
+        const sections = document.querySelectorAll("section[id]");
+        const navLinksList = document.querySelectorAll(".nav-link");
+
+        function updateActiveNav() {
+          const scrollPos = window.scrollY + 140;
+          sections.forEach((section) => {
+            const top = section.offsetTop;
+            const height = section.offsetHeight;
+            const id = section.getAttribute("id");
+
+            if (scrollPos >= top && scrollPos < top + height) {
+              navLinksList.forEach((link) => {
+                link.classList.remove("active");
+                if (link.getAttribute("href") === `#${id}`) {
+                  link.classList.add("active");
+                }
+              });
+            }
+          });
+        }
+        window.addEventListener("scroll", updateActiveNav);
+        updateActiveNav();
+
         // Intersection Observer for Reveal Animations
         const observerOptions = {
           threshold: 0.1,
-          rootMargin: "0px 0px -50px 0px",
+          rootMargin: "0px 0px -40px 0px",
         };
 
         const observer = new IntersectionObserver((entries) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
               entry.target.classList.add("visible");
-              observer.unobserve(entry.target); // Only animate once
+              observer.unobserve(entry.target);
             }
           });
         }, observerOptions);
 
         const hiddenElements = document.querySelectorAll(
-          ".section-title, .about-text, .about-visual, .skill-card, .project-card, .timeline-content, .hero-text, .hero-visual",
+          ".section-title, .about-text, .about-visual, .skill-card, .project-card, .timeline-content, .education-card, .hero-text, .hero-visual",
         );
         hiddenElements.forEach((el) => {
           el.style.opacity = "0";
-          el.style.transform = "translateY(30px)";
+          el.style.transform = "translateY(24px)";
           el.style.transition = "all 0.6s cubic-bezier(0.16, 1, 0.3, 1)";
           observer.observe(el);
         });
 
-        // Add visible class styles dynamically to avoid CSS clutter
         const style = document.createElement("style");
         style.innerHTML = `
-                .visible {
-                    opacity: 1 !important;
-                    transform: translateY(0) !important;
-                }
-            `;
+          .visible {
+            opacity: 1 !important;
+            transform: translateY(0) !important;
+          }
+        `;
         document.head.appendChild(style);
 
         // Mobile Menu Toggle
         const toggle = document.querySelector(".mobile-toggle");
         const navLinks = document.querySelector(".nav-links");
 
-        if (toggle) {
+        if (toggle && navLinks) {
           toggle.addEventListener("click", () => {
             if (navLinks.classList.contains("active")) {
               navLinks.style.display = "none";
@@ -444,19 +697,18 @@ const gokul = {
             } else {
               navLinks.style.display = "flex";
               navLinks.classList.add("active");
-              // Simple mobile menu styles injection
               navLinks.style.flexDirection = "column";
               navLinks.style.position = "absolute";
               navLinks.style.top = "70px";
               navLinks.style.left = "50%";
               navLinks.style.transform = "translateX(-50%)";
-              navLinks.style.background = "#0a0a0a";
+              navLinks.style.backgroundColor = "#FFFFFF";
               navLinks.style.padding = "20px";
               navLinks.style.borderRadius = "16px";
-              navLinks.style.border = "1px solid var(--border-glass)";
-              navLinks.style.width = "200px";
+              navLinks.style.border = "1px solid var(--color-border)";
+              navLinks.style.width = "220px";
               navLinks.style.textAlign = "center";
-              navLinks.style.boxShadow = "0 10px 40px rgba(0,0,0,0.5)";
+              navLinks.style.boxShadow = "0 12px 32px rgba(23, 32, 51, 0.12)";
               navLinks.style.zIndex = "1001";
             }
           });
